@@ -11,7 +11,7 @@ Middlewares :
                Middleware helps separate concerns and manage complex rountes effciently.
 
                Working of Middleware
-               ![Middleware Flow Image] (Backend\Day-3\images\Middleware flow.png)
+               ![Middleware Flow Image] (images/Middleware flow.png)
 ```javascript
           app.use((req, res, next)=>{
                console.log(`Middle ware`);
